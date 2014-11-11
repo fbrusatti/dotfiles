@@ -1,0 +1,16 @@
+.bundle
+script/delayed_job
+tmp/restart.txt
+db/*.sqlite3
+log/*.log
+tmp/**/*
+*~
+.idea/*
+public/assets/*
+config/database.yml
+config/environments/development.rb
+public/dev/*
+ssl/*
+yuicompressor.jar
+.sass-cache/
+/config/app_environment_variables.rb
