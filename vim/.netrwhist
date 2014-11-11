@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/franco/rails-devs/yeti-media/src/mystorey/config/deploy'
+let g:netrw_dirhist_2='/Users/franco/code'
+let g:netrw_dirhist_3='/Users/franco/rails-devs/fulbo/features/step_definitions'
+let g:netrw_dirhist_4='/Users/franco/rails-devs/mojotech/nest4less/features/support/widgets'
+let g:netrw_dirhist_5='/Users/franco/rails-devs/mojotech/splash/app/models/user'
+let g:netrw_dirhist_6='/Users/franco/rails-devs/plum/gg/test'
