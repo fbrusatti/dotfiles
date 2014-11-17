@@ -30,11 +30,13 @@ export PATH=${PATH}:/Users/franco/code/adt-bundle/sdk/platform-tools:/Users/fran
 
 # {{{
 # Node Completion - Auto-generated, do not touch.
-shopt -s progcomp
-for f in $(command ls ~/.node-completion); do
-  f="$HOME/.node-completion/$f"
-  test -f "$f" && . "$f"
-done
+if [ -f ~/.node-completion ]; then
+  shopt -s progcomp
+  for f in $(command ls ~/.node-completion); do
+    f="$HOME/.node-completion/$f"
+    test -f "$f" && . "$f"
+  done
+fi
 # }}}
 
 # start sh-agent (to manage different ssh keys) if there is no an already process to it
